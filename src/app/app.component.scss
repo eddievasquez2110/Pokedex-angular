@@ -50,40 +50,37 @@ header {
 }
 
 footer{
-    height: 40px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 0 20px;
-    gap: 40px;
-    background-color: #619CDE;
+    gap: 20px;
+    height: 40px;
+    background-color: #629ddf;
     color: var.$texto-blanco;
-
+    padding-right: 20px;
+    a{
+        color: var.$texto-blanco;
+        text-decoration: none;
+    }
     p{
         display: flex;
         align-items: center;
-        justify-content: baseline;
-        gap: 10px;
         font-weight: 500;
+        gap: 10px;
     }
     kbd{
-        display: flex;
-        background-color: #6E6B67;
-        border-radius: 100px;
-        height: 30px;
-        width: 30px;
-        align-items: center;
-        justify-content: center;
-        font-size: x-large;
-        line-height: 50px;
+        background-color: #8a8582;
+        border-radius: 50%;
+        height: 26px;
+        line-height: 26px;
+        aspect-ratio: 1;
+        text-align: center;
+        font-size: xx-large;
+        margin-left: 10px;
+        margin-right: 5px;
         user-select: none;
         -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
         -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
         box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
-    }
-
-    a {
-        text-decoration: none;
-        color: var.$texto-blanco;
     }
 }
