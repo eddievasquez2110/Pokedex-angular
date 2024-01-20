@@ -30,3 +30,9 @@
 app-foto-pokemon{
     margin-left: 100px;
 }
+
+#tarjetasContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
